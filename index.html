@@ -5,7 +5,7 @@
   </head>
   <body>
     <main>
-      <form id="post-form" onsubmit="createPost(event); return false;">
+      <form id="post-form" onsubmit="createPost(); return false;">
         Title: <input type="text" id="postTitle"><br>
         Body: <input type="text" id="postBody"><br>
         Author: <input type="text" id="postAuthor"><br>
@@ -15,7 +15,7 @@
     <script id="comments-template" type="text/x-lodash-template">
       <div id="comments">
       </div>
-      <form onsubmit="postComment(event); return false;">
+      <form onsubmit="postComment(); return false;">
           Commenter: <input type="text" id="commenter"></br>
           Comment: <input type="text" id="comment"></br>
 

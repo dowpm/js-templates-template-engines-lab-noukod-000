@@ -1,5 +1,5 @@
-function createPost(e){
-    e.preventDefault();
+function createPost(){
+    // e.preventDefault();
 
     let titlePost = document.getElementById('postTitle').value;
     let bodyPost = document.getElementById('postBody').value;
@@ -21,8 +21,8 @@ function createPost(e){
     
 }
 
-function postComment(e){
-    e.preventDefault();
+function postComment(){
+    // e.preventDefault();
 
     let commenter = document.getElementById('commenter').value;
     let comment = document.getElementById('comment').value;
